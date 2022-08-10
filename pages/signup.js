@@ -1,7 +1,9 @@
 export default function Signup() {
+  const num = 1001312341423/121
   return (
-    <h1>Signup</h1>
+    <h1>Signup {num}</h1>
 
-    // フォームを用意
+    // フォームを
+
   );
 }
