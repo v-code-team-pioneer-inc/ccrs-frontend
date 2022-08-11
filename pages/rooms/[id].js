@@ -1,13 +1,12 @@
 import { useRouter } from "next/router";
 
-const Reservation = () => {
+export default function RoomShow() {
   const router = useRouter();
   const { id } = router.query;
+
   return (
     <div>
-      <h1>Reservation { id }</h1>
+      <h1>Room Show {id}</h1>
     </div>
   );
 }
-
-export default Reservation;
