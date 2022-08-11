@@ -26,7 +26,7 @@ export default function Weather() {
 
       <h1>{data.title}</h1>
       {data.forecasts.map((forecast) => (
-        <ul>
+        <ul key={forecast.dateLabel}>
           <li key={forecast.date}>{forecast.date}</li>
           <ul>
             <li key={forecast.telop}>{forecast.telop}</li>
