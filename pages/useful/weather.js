@@ -2,7 +2,7 @@ import { useState } from "react";
 import { getWeather } from "~/hooks/weather/getWeather";
 import { cities } from "~/services/weather/cities";
 
-export default function Weather() {
+const Weather = () => {
   const [city, setCity] = useState(cities[0]);
 
   const { data, err } = getWeather(city.id);
@@ -12,6 +12,7 @@ export default function Weather() {
   return (
     <div>
       <select
+        className="form-control"
         value={city.id}
         onChange={(e) =>
           setCity(cities.find((c) => c.id === Number(e.target.value)))
@@ -24,15 +25,17 @@ export default function Weather() {
         ))}
       </select>
 
-      <h1>{data.title}</h1>
+      <h1 className="text-lg font-bold">{data.title}</h1>
       {data.forecasts.map((forecast) => (
-        <ul key={forecast.dateLabel}>
+        <ul className="list-disc list-inside" key={forecast.dateLabel}>
           <li key={forecast.date}>{forecast.date}</li>
-          <ul>
+          <ul className="list-disc list-inside ml-3">
             <li key={forecast.telop}>{forecast.telop}</li>
           </ul>
         </ul>
       ))}
     </div>
   );
-}
+};
+
+export default Weather;
