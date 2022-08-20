@@ -7,6 +7,7 @@ import styles from '~/styles/common/Header.module.css'
 export const Header = () => {
   return (
     <div>
+      {/* TODO: ヘッダーを実装。デザインは変えていただいて大丈夫です。 */}
 
     </div>
   );
