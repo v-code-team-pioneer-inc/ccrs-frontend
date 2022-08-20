@@ -3,7 +3,7 @@ export default function Signup() {
   return (
     <h1>Signup {num}</h1>
 
-    // フォームを
+    // フォームを実装する
 
   );
 }
