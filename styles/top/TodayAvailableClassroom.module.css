@@ -1,8 +1,9 @@
-ul {
+/* TODO: HTMLのタグ名をclass名とするのは好ましくないので、いつか修正する。 */
+.ul {
     display: flex;
 }
 
-li {
+.li {
     list-style: none;
     padding-right: 10px;
     width: 300px;
