@@ -1,10 +1,21 @@
 table{
-    width: 600px;
-    height: 300px;
-    overflow-y:scroll;
+    width: 800px;
+    height: 400px;
+    overflow:auto
 }
 
 tr{
     text-align: center;
 }
 
+th{
+    background-color: aqua;
+}
+
+#main{
+    position: sticky;
+    top: 0;
+    background: aqua;
+    top: 0;
+    z-index: 1;
+  }
