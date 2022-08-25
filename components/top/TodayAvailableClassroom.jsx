@@ -22,7 +22,6 @@ export const TodayAvailableClassroom = () => {
         <Card />
         <Card />
       </ul>
-      <input type="button" className={styles.decision} value="行くかも"/>
     </div>
   );
 };
@@ -32,7 +31,7 @@ export const Card = () => {
     <li className={styles.li}>
       <p className={styles.class_room}>F301</p>
       <p className={styles.time}>14:00-15:30</p>
-      <input type="button" className={styles.decision} value="行くかも"/>
+      <button className={styles.decision}>行くかも</button>
     </li>
   );
 };

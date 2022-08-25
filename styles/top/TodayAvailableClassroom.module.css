@@ -27,8 +27,8 @@
 
 .decision {
     text-align: center;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: 5px 40px;
-    border-radius: 30px;
-    color:#578BDA;
+    /* border-radius: 30px; */
+    font:#578BDA;
 }
