@@ -9,8 +9,8 @@ export const ClassroomStatusTable = () => {
   return (
     <div>
       <body>
-<link rel="stylesheet" href="style.css">
-        <table border="2" style="border-collapse: collapse">
+<link rel="stylesheet" href="ClassroomStatusTable.module.css">
+        <room_table border="2" style="border-collapse: collapse">
             <tr>
               <th>時間/教室</th> <th>F301</th> <th>F302</th> <th>F303</th> <th>F304</th> <th>F305</th>
             </tr>          
@@ -35,7 +35,7 @@ export const ClassroomStatusTable = () => {
             <tr>
               <th id="main">18:50-20:30</th> <td></td> <td></td> <td></td> <td></td> <td></td>
             </tr>
-          </table>
+          </room_table>
 </body>
 
     </div>

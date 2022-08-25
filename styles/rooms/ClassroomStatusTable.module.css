@@ -1,0 +1,21 @@
+.room_table{
+    width: 800px;
+    height: 400px;
+    overflow:auto
+}
+
+.room_tr{
+    text-align: center;
+}
+
+.room_th{
+    background-color: aqua;
+}
+
+.room_main{
+    position: sticky;
+    top: 0;
+    background: aqua;
+    top: 0;
+    z-index: 1;
+  }
