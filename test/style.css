@@ -1,0 +1,10 @@
+table{
+    width: 600px;
+    height: 300px;
+    overflow-y:scroll;
+}
+
+tr{
+    text-align: center;
+}
+
