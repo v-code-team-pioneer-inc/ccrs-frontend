@@ -13,6 +13,7 @@
     border-radius: 30px;
     margin: 15px;
     display: inline-block;
+    box-shadow: 6px 6px #578BDA;
 }
 
 .class_room {
@@ -29,4 +30,5 @@
     border: 1px solid;
     margin: 5px 40px;
     border-radius: 30px;
+    color:#578BDA;
 }
