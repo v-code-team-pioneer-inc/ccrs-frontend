@@ -6,10 +6,14 @@
 import styles from '~/styles/common/Header.module.css'
 
 export const Header = () => {
-  return (
-    <div>
+  return(
+    <header>
+      <h1 className={styles.header}>
+       中央大学 教室予約
+      </h1>
+      
+     
       {/* TODO: ヘッダーを実装。デザインは変えていただいて大丈夫です。 */}
-
-    </div>
+    </header>
   );
 };

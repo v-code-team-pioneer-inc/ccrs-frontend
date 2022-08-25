@@ -1,0 +1,7 @@
+.header {
+    position: fixed;
+    background-color: darkgray;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+}
