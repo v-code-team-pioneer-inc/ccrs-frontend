@@ -1,6 +1,8 @@
 /* TODO: HTMLのタグ名をclass名とするのは好ましくないので、いつか修正する。 */
 .ul {
     display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 .li {
@@ -10,6 +12,7 @@
     border: 1px solid;
     border-radius: 30px;
     margin: 15px;
+    display: inline-block;
 }
 
 .class_room {
