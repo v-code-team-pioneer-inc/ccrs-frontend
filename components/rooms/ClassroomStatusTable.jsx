@@ -9,7 +9,6 @@ export const ClassroomStatusTable = () => {
   return (
     <div>
       <body>
-<link rel="stylesheet" href="ClassroomStatusTable.module.css">
         <room_table border="2" style="border-collapse: collapse">
             <tr>
               <th>時間/教室</th> <th>F301</th> <th>F302</th> <th>F303</th> <th>F304</th> <th>F305</th>
