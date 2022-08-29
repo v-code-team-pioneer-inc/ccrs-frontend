@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-First, run the development server:
+以下のコマンドを実行してサーバーを起動させてください！
 
 ```bash
 # npmは使わないでください！
