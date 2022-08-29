@@ -1,7 +1,9 @@
 .room_table {
     width: 800px;
     height: 400px;
-    overflow:auto
+    overflow :auto;
+    border: 2px solid #000;
+    border-collapse: collapse;
 }
 
 .room_tr {
