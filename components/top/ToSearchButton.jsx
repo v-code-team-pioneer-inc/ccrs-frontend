@@ -7,10 +7,13 @@ import styles from "~/styles/top/ToSearchButton.module.css";
 
 export const ToSearchButton = () => {
   return (
+  
     <div className={styles.container}>
+     
       <button type="button" className={styles.link_button}>
         空き教室を確認する
       </button>
+      
       <br/>
       <button type="button" className={styles.link_button2}>
         各教室の<br/>今後のスケジュールを<br/>確認する
