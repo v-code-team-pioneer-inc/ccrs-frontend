@@ -1,8 +1,10 @@
 .header {
     position: fixed;
+    top: 0%;
+    left: 0%;
     background-color: lightgrey;
     font-family: monospace;
     font-size: 16px;
     box-shadow: 2px 2px 4px gray;
-
+    width: 100%;
 }
