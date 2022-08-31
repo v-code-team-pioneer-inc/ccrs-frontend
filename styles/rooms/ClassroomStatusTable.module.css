@@ -1,6 +1,7 @@
 
 .room_table {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 800px;
     height: 400px;
     overflow :auto;
