@@ -27,8 +27,24 @@
 
 .decision {
     text-align: center;
-    /* border: 1px solid; */
     margin: 5px 40px;
-    /* border-radius: 30px; */
-    font:#578BDA;
+    color:#578BDA;
+    cursor: pointer;
+    /* background-color: #578BDA; */
+    /* border:2px solid #578BDA; 
+	border-radius: 3px; */
+    /* -webkit-border-radius:3px;
+    -moz-border-radius:3px; */
+    /* outline: none; */
 }
+
+/* .button {
+    
+}     */
+
+/* .deision :active {
+        -webkit-box-shadow:inset 0px 0px 8px #334c66;
+    -moz-box-shadow:inset 0px 0px 2px #3a6da0;
+    box-shadow:inset 0px 0px 2px #3a6da0;
+    color: #fff;
+} */
