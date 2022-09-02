@@ -31,7 +31,8 @@ export const Card = () => {
     <li className={styles.li}>
       <p className={styles.class_room}>F301</p>
       <p className={styles.time}>14:00-15:30</p>
-      <button className={styles.decision}>行くかも</button>
+      <button onClick={() => { alert("クリックされました"); }}
+ className={styles.decision}>行くかも</button>
     </li>
   );
 };

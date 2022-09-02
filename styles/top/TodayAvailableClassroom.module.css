@@ -27,24 +27,16 @@
 
 .decision {
     text-align: center;
+    font-size: 15px;
     margin: 5px 40px;
-    color:#578BDA;
+    border:1px solid;
+	border-radius: 8px;
     cursor: pointer;
-    /* background-color: #578BDA; */
-    /* border:2px solid #578BDA; 
-	border-radius: 3px; */
-    /* -webkit-border-radius:3px;
-    -moz-border-radius:3px; */
-    /* outline: none; */
+    background-color: #7879F1;
+    color: white;
 }
 
-/* .button {
-    
-}     */
-
-/* .deision :active {
-        -webkit-box-shadow:inset 0px 0px 8px #334c66;
-    -moz-box-shadow:inset 0px 0px 2px #3a6da0;
-    box-shadow:inset 0px 0px 2px #3a6da0;
-    color: #fff;
-} */
+.decision:active {
+    background-color: white;
+    color: black;
+}
