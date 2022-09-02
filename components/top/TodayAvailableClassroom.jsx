@@ -9,7 +9,7 @@ export const TodayAvailableClassroom = () => {
   return (
     <div>
       {/* TODO: タイトルと横並びのカードの実装 */}
-      <ul className={styles.ul}>
+      <ul className={styles.box}>
         <Card />
         <Card />
         <Card />
@@ -28,7 +28,7 @@ export const TodayAvailableClassroom = () => {
 
 export const Card = () => {
   return (
-    <li className={styles.li}>
+    <li className={styles.content}>
       <p className={styles.class_room}>F301</p>
       <p className={styles.time}>14:00-15:30</p>
       <button onClick={() => { alert("クリックされました"); }}

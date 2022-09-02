@@ -1,11 +1,11 @@
 /* TODO: HTMLのタグ名をclass名とするのは好ましくないので、いつか修正する。 */
-.ul {
+.box {
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
 }
 
-.li {
+.content {
     list-style: none;
     padding-right: 10px;
     width: 300px;
