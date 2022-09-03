@@ -8,7 +8,7 @@ import styles from "~/styles/top/TodayAvailableClassroom.module.css";
 export const TodayAvailableClassroom = () => {
   return (
     <div>
-      {/* TODO: タイトルと横並びのカードの実装 */}
+      {/* TODO: APIから受け取ったデータを表示するようにする */}
       <ul className={styles.box}>
         <Card />
         <Card />
