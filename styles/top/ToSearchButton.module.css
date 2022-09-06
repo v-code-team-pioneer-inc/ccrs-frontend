@@ -1,6 +1,6 @@
 .link_button{
-    width: 15em;
-    height: 5em;
+    width: 13em;
+    height: 4.5em;
     color: rgb(255, 255, 255);
     background-color: rgb(132, 138, 227);
     border: none;
@@ -8,10 +8,11 @@
 }
 .link_button:active{
     color: rgb(93, 102, 229);
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(220, 220, 220);
 }
 .link_button2{
-    width: 15em;
+    font-size: 75%;
+    width: 14.5em;
     height: 5em;
     color: rgb(255, 255, 255);
     background-color:rgb(132, 138, 227) ;
@@ -20,7 +21,7 @@
 }
 .link_button2:active{
     color:rgb(93, 102, 229) ;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(220, 220, 220);
 }
 .container{
     display: flex;
