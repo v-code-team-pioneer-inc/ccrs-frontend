@@ -6,6 +6,10 @@
     border: none;
     border-radius: 18px;
 }
+.link_button:active{
+    color: rgb(93, 102, 229);
+    background-color: rgb(211, 211, 211);
+}
 .link_button2{
     width: 15em;
     height: 5em;
@@ -13,6 +17,10 @@
     background-color:rgb(132, 138, 227) ;
     border: none;
     border-radius: 18px;
+}
+.link_button2:active{
+    color:rgb(93, 102, 229) ;
+    background-color: rgb(211, 211, 211);
 }
 .container{
     display: flex;
