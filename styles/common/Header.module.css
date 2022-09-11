@@ -7,4 +7,5 @@
     box-shadow: 2px 2px 4px gray;
     width: 100%;
     background-color: rgba(240, 233, 233, 0.8);
+    position: fixed;
 }
