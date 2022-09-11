@@ -7,5 +7,6 @@
     box-shadow: 2px 2px 4px gray;
     width: 100%;
     background-color: rgba(201, 201, 201, 0.8); /* 背景のみ半透明 */
-    position: sticky;
+    
+
 }
