@@ -6,7 +6,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <Component {...pageProps} />
+
+      {/* TODO: CSSフレームワークで整える */}
+      <div className="mt-24">
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }
