@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
       <Header />
 
       {/* TODO: CSSフレームワークで整える */}
-      <div className="mt-16">
+      <div className="mt-24">
         <Component {...pageProps} />
       </div>
     </>
