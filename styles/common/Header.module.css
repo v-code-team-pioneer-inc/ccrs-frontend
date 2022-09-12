@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 100px;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: -100px;
     left: 0%;
@@ -10,7 +10,7 @@
     box-shadow: 2px 2px 4px gray;
     font-family: monospace;
     font-size: 30px;
-    
+    text-align: center;
     
   }
   
