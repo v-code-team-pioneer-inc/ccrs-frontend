@@ -8,8 +8,31 @@ import styles from "~/styles/top/TodayAvailableClassroom.module.css";
 export const TodayAvailableClassroom = () => {
   return (
     <div>
-      {/* TODO: タイトルと横並びのカードの実装 */}
-
+      {/* TODO: APIから受け取ったデータを表示するようにする */}
+      <ul className={styles.box}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </ul>
     </div>
+  );
+};
+
+export const Card = () => {
+  return (
+    <li className={styles.content}>
+      <p className={styles.class_room}>F301</p>
+      <p className={styles.time}>14:00-15:30</p>
+      <button onClick={() => { alert("クリックされました"); }}
+ className={styles.decision}>行くかも</button>
+    </li>
   );
 };
