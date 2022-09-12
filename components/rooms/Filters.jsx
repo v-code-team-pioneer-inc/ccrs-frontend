@@ -7,13 +7,14 @@ export const ClassroomStatusTableFilters = () => {
   const [date, setDate] = useState(new Date());
   return (
     <div>
-      <div className="mr-20 text-left block ml-auto">
+      <div className="ml-20 text-left block mr-auto">
         <DatePicker
           locale="ja"
+          label="日付"
           dateFormat="yyyy/MM/dd"
           selected={date}
           onChange={(date) => setDate(date)}
-          className="mr-20 text-left block ml-auto h-full"
+          className="ml-20 text-left block mr-auto h-full"
         />
       </div>
     </div>
