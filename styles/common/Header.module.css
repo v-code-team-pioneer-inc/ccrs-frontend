@@ -1,12 +1,22 @@
 .header {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    font-family: monospace;
-    font-size: 16px;
-    box-shadow: 2px 2px 4px gray;
     width: 100%;
-    background-color: rgba(201, 201, 201, 0.8); /* 背景のみ半透明 */
+    height: 100px;
+    background-color: rgb(228, 228, 228);
+    position: absolute;
+    top: -100px;
+    left: 0%;
+    margin-top: 100px;
+    transition: top 300ms;
+    box-shadow: 2px 2px 4px gray;
+    font-family: monospace;
+    font-size: 30px;
     
-
+    
+  }
+  
+  .header.sticky {
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    height: 50px;
 }
