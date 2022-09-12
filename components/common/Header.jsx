@@ -8,7 +8,7 @@ import styles from '~/styles/common/Header.module.css'
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <h1>中央大学 教室検索</h1>
+      <h1 className={styles.header_title}>中央大学 教室検索</h1>
     </header>
   );
 };
