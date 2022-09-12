@@ -2,11 +2,10 @@
   width: 100%;
   background-color: rgb(255, 255, 255);
   position: absolute;
-  top: -100px;
+  top: 0px;
   left: 0%;
   transition: top 300ms;
-  box-shadow: 2px 2px 4px gray;
+  box-shadow: 2px 2px 4px grey;
   font-family: monospace;
-  font-size: 35px;
-  padding: 5px 0px;
+  font-size: 7px;
 }

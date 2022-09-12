@@ -6,14 +6,9 @@
 import styles from '~/styles/common/Header.module.css'
 
 export const Header = () => {
-  return(
-    <header>
-      <h1 className={styles.header}>
-       中央大学空き教室確認
-      </h1>
-      
-      {/* TODO: ヘッダーを実装。デザインは変えていただいて大丈夫です。 */}
-
+  return (
+    <header className={styles.header}>
+      <h1>中央大学 教室検索</h1>
     </header>
   );
 };
