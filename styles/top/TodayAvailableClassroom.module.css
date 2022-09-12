@@ -1,0 +1,43 @@
+/* TODO: HTMLのタグ名をclass名とするのは好ましくないので、いつか修正する。 */
+.box {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.content {
+    list-style: none;
+    padding-right: 10px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin: 15px;
+    display: inline-block;
+    box-shadow: 6px 6px #578BDA;
+}
+
+.class_room {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.time {
+    text-align: center;
+}
+
+.decision {
+    text-align: center;
+    font-size: 15px;
+    margin: 5px 40px;
+    border:1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #7879F1;
+
+    color: white;
+}
+
+.decision:active {
+    background-color: white;
+    color: black;
+}
