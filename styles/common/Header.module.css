@@ -1,23 +1,12 @@
 .header {
-    width: 100%;
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: -100px;
-    left: 0%;
-    margin-top: 100px;
-    transition: top 300ms;
-    box-shadow: 2px 2px 4px gray;
-    font-family: monospace;
-    font-size: 35px;
-    text-align: center;
-    padding-top: 50px;
-    
-  }
-  
-  .header.sticky {
-    position: fixed;
-    top: 0;
-    margin-top: 0;
-    height: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: -100px;
+  left: 0%;
+  transition: top 300ms;
+  box-shadow: 2px 2px 4px gray;
+  font-family: monospace;
+  font-size: 35px;
+  padding: 5px 0px;
 }
