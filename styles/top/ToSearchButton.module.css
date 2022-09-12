@@ -7,8 +7,9 @@
     border-radius: 18px;
 }
 .link_button:active{
-    color: rgb(93, 102, 229);
-    background-color: rgb(220, 220, 220);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
 }
 .link_button2{
     font-size: 75%;
@@ -20,8 +21,9 @@
     border-radius: 18px;
 }
 .link_button2:active{
-    color:rgb(93, 102, 229) ;
-    background-color: rgb(220, 220, 220);
+    color:rgb(0, 0, 0) ;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
 }
 .container{
     display: flex;
