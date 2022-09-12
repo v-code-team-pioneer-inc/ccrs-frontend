@@ -23,3 +23,7 @@
     background: rgb(245, 195, 184);
     width: 200px;
   }
+
+.room_status {
+    text-align: center;
+}
