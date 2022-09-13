@@ -7,8 +7,9 @@ import styles from "~/styles/rooms/ClassroomStatusTable.module.css";
 import { getRooms } from "~/hooks/room/getRooms";
 import { ClassroomStatusTableBody } from "~/components/rooms/ClassroomStatusTableBody";
 
-export const ClassroomStatusTable = () => {
-  const { data, error } = getRooms();
+export const ClassroomStatusTable = ({ date }) => {
+  let dateStr = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+  const { data, error } = getRooms(dateStr);
 
   if (error) {
     return <div>読み込みに失敗しました</div>;
