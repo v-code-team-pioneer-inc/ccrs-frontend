@@ -30,9 +30,9 @@ export const ClassroomStatusTable = ({ date }) => {
     <table border="1" className={styles.room_table}>
       <tbody>
         {roomsByFloor &&
-          Object.keys(roomsByFloor).map((floor) => (
-            <ClassroomStatusTableBody rooms={roomsByFloor[floor]} />
-        ))}
+          Object.keys(roomsByFloor).map((floor, index) => (
+            <ClassroomStatusTableBody rooms={roomsByFloor[floor]} key={index} />
+          ))}
       </tbody>
     </table>
   );

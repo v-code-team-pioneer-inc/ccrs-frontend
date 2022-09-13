@@ -54,15 +54,17 @@ export const ClassroomStatusTableBody = ({ rooms }) => {
     <>
       <tr className={styles.room_head}>
         <th>時間/教室</th>{" "}
-        {roomNames.map((roomName) => (
-          <th>{roomName}</th>
+        {roomNames.map((roomName, index) => (
+          <th key={index}>{roomName}</th>
         ))}
       </tr>
-      {columnDataArr.map((columnData) => (
-        <tr>
+      {columnDataArr.map((columnData, index) => (
+        <tr key={index}>
           <th className={styles.room_main}>{columnData.time}</th>
-          {columnData.statuses.map((status) => (
-            <td className={styles.room_status}>{status}</td>
+          {columnData.statuses.map((status, index) => (
+            <td className={styles.room_status} key={index}>
+              {status}
+            </td>
           ))}
         </tr>
       ))}
